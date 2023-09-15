@@ -22,6 +22,6 @@ $config = require __DIR__ . '/config.php';
 $config = Config::init($config,$mysql);
 
 $db = new DB(Config::getConfig('mysql'));
-$run = new CleanTable($db,Config::getConfig('config')) ;    dd(1);
+$run = new CleanTable($db,Config::getConfig('config')) ;
 $run->runProcess();
 MyLog::info("Full process Runtime is: ".Timer::getTime() ,array());
