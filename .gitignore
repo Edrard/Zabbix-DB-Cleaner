@@ -1,1 +1,4 @@
 ﻿composer.lock
+logs/
+logs/*
+mysql.php
