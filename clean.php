@@ -11,6 +11,10 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 require __DIR__ . '/vendor/autoload.php';
+//Set true to disable info logs
+if (False) {
+    MyLog::changeType(['warning','error','critical']);
+}
 MyLog::init();
 
 $mysql = require __DIR__ . '/mysql.php';
