@@ -23,7 +23,7 @@ class CleanTable
                 MyLog::info('Starting cleaning for table: ' . $table ,$data);
                 Timer::startTime($table);
                 $queue = $this->db->table($table)->where($data['row'], '<', $this->calcTime($data['days']))->delete();
-                MyLog::info('Cleansing for table ' .$table . ' is finished in:' .Timer::getTime($table). ' seconds' ,array());
+                MyLog::info('Cleansing for table ' .$table . ' is finished in: ' .Timer::getTime($table). ' seconds' ,array());
             }
         } catch (\Exception $error) {
             MyLog::error('Error: ' . $error->getMessage() ,array());
