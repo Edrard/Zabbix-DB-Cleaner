@@ -1,0 +1,1 @@
+10 2 * * * root cd /usr/local/zabbix-cleaner && php clean.php
