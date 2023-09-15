@@ -4,6 +4,7 @@ Clean Zabbix history
 
 
 ** 1. Edit mysql.php **
+
 ** 2. Edit config.php **
 
 In config.php change parametr 'days' => '14' if you need more or less per table. If you need to clean any another table, just add it.
