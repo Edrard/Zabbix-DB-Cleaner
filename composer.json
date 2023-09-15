@@ -1,0 +1,38 @@
+{
+    "name": "edrard/zimbra_cleaner",
+    "description": "Zimbra History cleaner",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Edrard",
+        "email": "demonand@gmail.com"
+    }],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Edrard/function.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/Edrard/MyLog.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/Edrard/DbCreate.git"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "edrard/function": "dev-master",
+        "edrard/mylog": "dev-master",
+        "edrard/dbcreate": "dev-master",
+        "usmanhalalit/pixie": "^2.0",
+        "swiftmailer/swiftmailer": "^6.0",
+        "nesbot/carbon": "^2.70"
+    },
+    "autoload": {
+        "psr-4": {
+            "edrard\\Zimbra\\": "src/"
+        }
+    }
+}

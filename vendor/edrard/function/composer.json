@@ -1,0 +1,26 @@
+{
+    "name": "edrard/function",
+    "description": "Some my functions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Edrard",
+        "email": "demonand@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "files": [
+            "Array.php",
+            "Date.php",
+            "Error.php",
+            "String.php",
+            "Url.php",
+            "Shell.php",
+            "Json.php",
+            "Bit.php",
+            "Obj.php"
+        ]
+    }
+}

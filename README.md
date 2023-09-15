@@ -1,2 +1,2 @@
 # Zabbix-DB-Cleaner
-Zabbix DB history  cleaner
+Clean Zabbix history
